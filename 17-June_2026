@@ -17,7 +17,28 @@ class Solution {
 }
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+
+import java.util.*;
+ class clg{
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int steps=0;
+    int count=0;
+    int distance=sc.nextInt();
+    steps=distance/5;
+    if(distance%5==0){
+         count= steps;
+
+    }
+    else{
+        count=steps+1;
+    }
+    System.out.println(count);
+    
+}
 
 
 
